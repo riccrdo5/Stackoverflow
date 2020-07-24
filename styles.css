@@ -1,0 +1,134 @@
+body {
+    /*Loock over background color and change the size and color of margins*/
+    background: #222;
+    font-family:'Work Sans', sans-serif;
+    margin: 0;
+    font-weight: 400;
+  }
+
+  .containerl{
+    max-width: 1100px ;
+    margin: 0 ;
+    overflow: ;
+    padding:  0 20rem  ;
+    background:black;
+    text-align: center;
+      position: relative;
+      list-style:none; 
+      
+      
+  }
+
+  .containerll{
+    max-width: 800px ;
+    margin: 0 ;
+    overflow: ;
+    padding:  0 20rem  ;
+    background:white;
+    text-align: center;
+    color: black;
+
+      position: relative;
+
+      
+      
+      
+  }
+  .container {
+      /*Look into width percentage thing instead of using px*/
+      max-width: 1100px ;
+      margin: 0 auto;
+      overflow: auto;
+      padding: 0 2rem   ;
+      
+  }
+
+  .FOXYCART{
+      max-width: 100% ;
+      margin: 0 ;
+      overflow: auto ;
+      padding:  0 20rem  ;
+      background:black;
+      text-align: center;
+        position: relative;
+        list-style:none;
+  }
+
+  header {
+      /*change header color later*/
+      background: #70bfb2;
+  }
+
+  header ::after {
+      content: '';
+      display: table;
+      clear: both;
+  }
+
+  .Logo {
+      float: left;
+      padding: 10px 0;
+  }
+
+  .Logotext{ /*need to fix thgat*/
+      padding: 10px 0;
+  }
+
+  .ullleft{
+    float: left;
+  }
+  .ull {
+      float: right;
+  }
+
+  ul {
+      margin:0;
+      padding:0;
+      list-style:none;
+  }
+
+  nav li {
+      display: inline-block;
+      margin-left: 70px; /*this makes the spacing inbetween the different navigation buttons on the left wider */
+      padding-top: 25px;
+
+      position: relative;
+  }
+
+  nav a /*link for nvbr & links*/ {
+      color: #444;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 14px;
+      
+  }
+
+  .text{
+      position: relative;
+      top: 0; bottom:0; left:0; right:0;
+      margin:auto ;
+      
+  }
+
+  nav a:hover {
+      color: #000;
+
+  }
+
+  nav a::before {
+    content:'';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #444;
+
+    position: absolute;
+    top:0;
+    width: 0%;
+
+    transition: all ease-in-out 240ms;
+  }
+
+  nav a:hover::before{
+      width:100%;
+  }
